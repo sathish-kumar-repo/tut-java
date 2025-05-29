@@ -5,6 +5,5 @@ class index{
             System.out.println(args[i]);
         }
     }
- 
 }
 
