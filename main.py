@@ -17,7 +17,9 @@ for index, file in enumerate(fileList):
 
     words = file.split()
     camel_case = "".join(word.capitalize() for word in words)
-    content = f"""public class App {{
+    content = f"""//{file}
+    
+public class App {{
     public static void main(String[] args) {{
        
     }}
