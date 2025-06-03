@@ -11,7 +11,7 @@ public class App {
         int n = in.nextInt();// 6
 
         int sum = 0;
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n; i++) { // i < n (I'm not included last number)
             if (n % i == 0) {
                 sum += i;// 1+2+3
             }
