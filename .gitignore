@@ -55,3 +55,6 @@ build/
 # OS-specific
 .DS_Store
 Thumbs.db
+
+#vs code
+.vscode
